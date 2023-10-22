@@ -1,0 +1,11 @@
+# Ignore node modules
+node_modules/
+
+# Ignore build directory
+build/
+
+# Ignore package-lock.json as it can create merge conflicts
+package-lock.json
+
+# Ignore any log files
+*.log

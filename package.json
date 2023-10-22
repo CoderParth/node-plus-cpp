@@ -1,0 +1,16 @@
+{
+  "name": "node-plus-cpp",
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "types": "hello.d.ts",
+  "scripts": {
+    "preinstall": "node-gyp rebuild",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-gyp": "^9.4.0"
+  }
+}
